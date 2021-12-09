@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENVS WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="section section-light">
+        <h2>The Objective:</h2>
+        <body>
+            <p>
+                Most people in the U.S. claim they know how to recycle. However, it turns out that it is way more complicated than it is made out to be. A lot of items people consider recycleable are either not meant for a curbside bin, or just recycled improperly. The goal of this site is to allow people to easily find out how to recycle their desired item properly. Recycling cuts down on energy expenditure and emissions spent creating new items, so making sure we recycle correctly is very important.  
+        </p>
+    </body>
+        
+    </section>
+    <div class="pRECYCLE">
+        <div class="ptext">
+            <span class="border trans">
+                Recycle
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark\">
+        <h2>Recycle</h2>
+        <p>
+            <label for="Clean">
+                <input type="checkbox" id="clean" name="Recycle" value="You're all set now "> Clean
+                </label>
+            <label for="Food in It">
+                <input type="checkbox" id="Food Dirty" name="Recycle" value="Get rid of as much food as possible then" > Food In It
+            </label>
+            <label for="Liquid">
+                <input type="checkbox" id="Liquids" name="Recycle" value="Rinse it out with water as well as you can then"> A Liquid That isn't Water
+            </label>
+            <label for="Has a Pump Cap">
+                <input type="checkbox" id="Pump Cap" name="Recycle" value="Take it off and throw the pump cap away then"> Has a Pump Cap
+            </label>
+            <label for="Spray Cap">
+                <input type="checkbox" id="Spray Cap" name="Recycle" value="You have to ship the cap to Terracycle then"> Has a Spray Cap
+            </label>
+            <label for="Crushed">
+                <input type="checkbox" id="Spray Cap" name="Recycle" value="If it is crushed up then it has to be put with items of the same material"> Is crushed
+            </label>
+            <label for="Lid">
+                <input type="checkbox" id="Lid" name="Recycle" value="take the lid off and put it inside the container then"> Lid is Half Attached
+            </label>
+            <label for="Greasy">
+                <input type="checkbox" id="Grease" name="Recycle" value="If you can't get rid of the grease throw it out. If you can then "> Greasy
+            </label>
+            <label for="water">
+                <input type="checkbox" id="water" name="Recycle" value="Since it is soaked, you cannot recycle it."> Water Soaked Up
+            </label>
+        </p>
+        <button id="btn">Submit</button>
+    </section>
+
+    <div class="pAluminum">
+        <div class="ptext">
+            <span class="border trans">
+                ALUMINUM
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark\">
+        <h2>Aluminum</h2>
+        <p>
+            <label for="Cans">
+                <input type="checkbox" id="Cans" name="Recycle" value="You can throw it out in your own bucket" > Cans
+            </label>
+            <label for="foil">
+                <input type="checkbox" id="Aluminum Foil" name="Recycle" value="recycle that shit" > Foil
+                <label for="Pipe">
+                <input type="checkbox" id="Pipe" name="Recycle" value="sell it to a scrapping company" > Aluminum Pipe
+            </label>
+            <label for="Ladder">
+                <input type="checkbox" id="Ladder" name="Recycle" value="Sell it to a scrapping company" > Aluminum Ladder
+            </label>
+            <label for="Sheet">
+                <input type="checkbox" id="Sheet" name="Recycle" value="sell it to a scrapping company" > Sheet Aluminum
+            </label>
+            <label for="Wire">
+                <input type="checkbox" id="Wire" name="Recycle" value="Sell it to a scrapping company" > Aluminum Wire
+            </label>
+            <label for="Not on here">
+                <input type="checkbox" id="not here" name="Recycle" value="You can throw it out in your own bucket" > My Object is Aluminum but Not On Here
+            </label>
+            <label for="Aerosol Can">
+                <input type="checkbox" id="Aerosol" name="Recycle" value="Drop it off at a marked bin outside many retailers." > Aerosol
+            </label>
+            <label for="Food Can">
+                <input type="checkbox" id="food can" name="Recycle" value="throw it in your normal bin" > Food Can
+            </label>
+            <label for="Tray">
+                <input type="checkbox" id="Aluminum Tray" name="Recycle" value="throw it in your normal bin"> Tray
+            </label>
+        </p>
+    </section>
+    
+    
+    <div class="pGLASS">
+        <div class="ptext">
+            <span class="border trans">
+                GLASS
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        
+        <h2>Glass</h2>
+        <p>
+            <label for="Clear Glass Con">
+                <input type="checkbox" id="Glass" name="Recycle" value="Throw this in your normal curbside or alley bin."> Glass Container 
+            </label>
+            <label for="Clear Bottle">
+                <input type="checkbox" id="Glass" name="Recycle" value="Throw this in your normal curbside or alley bin."> Glass Bottle 
+            </label>
+            <label for="Window">
+                <input type="checkbox" id="Glass" name="Recycle" value="Try your best to donate it. If you cant do that then take it to your nearest recycling center. Panes or something along those lines can be hard to recycle so the center might have a good idea."> Glass Pane 
+            </label>
+            <label for="Pyrex">
+                <input type="checkbox" id="Glass" name="Recycle" value="Do your best to donate this. If you cant then throw this in the trash."> Pyrex 
+            </label> 
+        </p>
+    </section>
+    
+    
+    <div class="pELECTRONICS">
+        <div class="ptext">
+            <span class="border">
+                ELECTRONICS
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2>Electronics</h2>
+        <p>
+            <label for="Desktop">
+                <input type="checkbox" id="Electronics" name="Recycle" value="if it works, try to donate it. If it doesn't then give it back to the manufacturer as many have programs to take it back."> Desktop 
+            </label>
+               <label for="Laptop">
+                <input type="checkbox" id="Electronics" name="Recycle" value="if it works, try to donate it. If it doesn't then give it back to the manufacturer as many have programs to take it back."> Laptop 
+            </label>
+               <label for="Monitor">
+                <input type="checkbox" id="Electronics" name="Recycle" value="if it works, try to donate it. If it doesn't then give it back to the manufacturer as many have programs to take it back."> Monitor 
+            </label>
+               <label for="Printer">
+                <input type="checkbox" id="Electronics" name="Recycle" value="there are are many organizations such as the World Computer Exchange that will take old electronics. You can also drive it to your nearest recycling center."> Printer 
+            </label>
+               <label for="Copier">
+                <input type="checkbox" id="Electronics" name="Recycle" value="there are are many organizations such as the World Computer Exchange that will take old electronics. You can also drive it to your nearest recycling center."> Copier 
+            </label>
+               <label for="Wires">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Many things, donate, return back to seller/manufacturer"> Wires 
+            </label>
+               <label for="Hard Drive">
+                <input type="checkbox" id="Electronics" name="Recycle" value="there are are many organizations such as the World Computer Exchange that will take old electronics. You can also drive it to your nearest recycling center."> Hard Drive 
+               </label>
+               <label for="Tablet">
+                <input type="checkbox" id="Electronics" name="Recycle" value="there are are many organizations such as the World Computer Exchange that will take old electronics. You can also drive it to your nearest recycling center."> Tablet 
+            </label>
+               <label for="TV">
+                <input type="checkbox" id="Electronics" name="Recycle" value="there are are many organizations such as the World Computer Exchange that will take old electronics. You can also drive it to your nearest recycling center."> TV 
+            </label>
+               <label for="Cell Phone">
+                <input type="checkbox" id="Electronics" name="Recycle" value="there are are many organizations such as the World Computer Exchange that will take old electronics. You can also drive it to your nearest recycling center."> Cell Phone 
+            </label>
+               <label for="Digital Camera">
+                <input type="checkbox" id="Electronics" name="Recycle" value="donate, return back to seller/manufacturer. If neither of these are an option, take it to your nearest recycling drop-off center"> Digital Camera 
+            </label>
+               <label for="Cords">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Take it to your nearest best buy"> Cords/Wires 
+            </label>
+               <label for="Keyboard">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Donate, if that doesnt work then take it to the nearest recycling drop off center"> Keyboard 
+            </label>
+               <label for="ink">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Give to best buy"> ink 
+            </label>
+               <label for="toner">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Give to best buy"> toner 
+            </label>
+            <label for="Auto Battery">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Return to a CALL2RECYCLE drop off box through homedepot"> Auto and Boat Battery 
+            </label>
+            <label for="Wireless Headphones">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Many things, donate, return back to seller/manufacturer"> Cordless Headphones 
+            </label>
+            <label for="Wired Headphones">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Try to donate if they still work. If they dont, then give it to Cyber Acousitcs. They take bigger quantities so try to gather some others from friends."> Wired Headphones 
+            </label>
+            <label for="Cordless Vacuum">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Drop it off at a recycling center"> Cordless Vacuum 
+            </label>
+            <label for="Drones">
+                <input type="checkbox" id="Electronics" name="Recycle" value="sell your broken drone to a company liked SoldBroke"> Drones 
+            </label>
+            <label for="E-Cigarette Battery">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Many things, donate, return back to seller/manufacturer"> E-Cigarette Battery 
+            </label>
+            <label for="Toothbrush">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Pile it up and take it to a public bin or nearest recycling drop off center."> Toothbrush 
+            </label>
+            <label for="Hoverboard">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Take it to your nearest drop off center."> Hoverboard
+            </label>
+            <label for="Lithium Battery">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Return to a CALL2RECYCLE drop off box through homedepot."> Lithium Battery 
+            </label>
+            <label for="MP3 Player">
+                <input type="checkbox" id="Electronics" name="Recycle" value="donate, return back to seller/manufacturer. If neither of these work then take it to a recycling drop off center."> MP3 Player 
+            </label>
+            <label for="Power Bank">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Return to a CALL2RECYCLE drop off box through homedepot"> Power Bank 
+            </label>
+            <label for="Power Tool Battery">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Return to a CALL2RECYCLE drop off box through homedepot"> Power Tool Battery 
+            </label>
+            <label for="Alkaline Battery">
+                <input type="checkbox" id="Electronics" name="Recycle" value="Throw this in the trash."> Alkaline Battery 
+            </label>        
+        </p>
+    </section>
+    <div class="pFoam">
+        <div class="ptext">
+            <span class="border">
+                Foam
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Foam</h2>
+        <p>
+            <label for="Drink Cups">
+                <input type="checkbox" id="Foam" name="Recycle" value="Take it to a drop-off center near you BUT MAKE SURE ITS FOAM #6.">Drink Cups
+            </label>
+            <label for="Drink Cups">
+                <input type="checkbox" id="Foam" name="Recycle" value="Take it to a drop-off center near you BUT MAKE SURE ITS FOAM #6.">Takeout Container
+            </label>
+            <label for="Drink Cups">
+                <input type="checkbox" id="Foam" name="Recycle" value="Take it to a drop-off center near you BUT MAKE SURE ITS FOAM #6.">Coolers
+            </label>
+            <label for="Drink Cups">
+                <input type="checkbox" id="Foam" name="Recycle" value="Take it to a drop-off center near you BUT MAKE SURE ITS FOAM #6.">Foam Packaging
+            </label>
+            <label for="Drink Cups">
+                <input type="checkbox" id="Foam" name="Recycle" value="Take it to a drop-off center near you BUT MAKE SURE ITS FOAM #6.">Building Insulation
+            </label>
+        </p>
+    </section>
+    <div class="pPAPER">
+        <div class="ptext">
+            <span class="border">
+                PAPER
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Paper</h2>
+        <p>
+            <label for="Sheet Paper">
+                <input type="checkbox" id="Paper" name="Recycle" value="Take it to a drop off center or at bins outside retailers. If you dont want to do that, put it in your curbside or alley bin"> looseleaf Paper
+            </label>
+            <label for="Cardboard">
+                <input type="checkbox" id="Paper" name="Recycle" value="throw it out in your curbside or alley bin"> Cardboard
+            </label>
+            <label for="Book & Mag">
+                <input type="checkbox" id="Paper" name="Recycle" value="As long as you take off the potential hardcover all is fine. The best thing to do is to donate your books. Otherwise you can throw them into your curbside or alley bin."> Books & Magazines
+            </label>
+            <label for="Carton">
+                <input type="checkbox" id="Paper" name="Recycle" value="Throw it out in your own curbside or alley bin."> Carton
+            </label>
+            <label for="Frozen Box">
+                <input type="checkbox" id="Paper" name="Recycle" value="If it has a plastic spray coating then DO NOT recycle. If it is a bag or just cardboard then flatten and put in in your curbside or alley bin."> Frozen Food Box
+            </label>
+            <label for="Gift Cards">
+                <input type="checkbox" id="Paper" name="Recycle" value="You cannot directly recycle these. Send it in to Earthworks Systems, a company that recycles PVC."> Gift Cards
+            </label>
+            <label for="Gift Wrap">
+                <input type="checkbox" id="Paper" name="Recycle" value="Wrapping paper often has other additives that cannot be recycled, so the best thing is to reuse and throw away."> Gift Wrap
+            </label>
+            <label for="News Paper">
+                <input type="checkbox" id="Paper" name="Recycle" value="Just put it in your curbside or alley bin."> Newspaper
+            </label>
+            <label for="Paper Bag">
+                <input type="checkbox" id="Paper" name="Recycle" value="Take it to a drop off center or at bins outside retailers. If you dont want to do that, put it in your curbside or alley bin"> Paper Bag
+            </label>
+            <label for="Paper Cups">
+                <input type="checkbox" id="Paper" name="Recycle" value="Throw it away"> Paper Cup
+            </label>
+            <label for="Paper Board">
+                <input type="checkbox" id="Paper" name="Recycle" value="Take it to a drop off center or at bins outside retailers. If you dont want to do that, put it in your curbside or alley bin"> Paper Board
+            </label>
+            <label for="Phone Book">
+                <input type="checkbox" id="Paper" name="Recycle" value="You're good to throw it in your normal curbside or alley bin. The best thing to do is opting out of getting phone books."> Phone book
+            </label>
+            <label for="Shredded Paper">
+                <input type="checkbox" id="Paper" name="Recycle" value="Put it in a paper bag and then drop it off at a recycling center"> Shredded Paper
+            </label>
+            <label for="Shredded Paper">
+                <input type="checkbox" id="Paper" name="Recycle" value="This one you have to look up and see. Check your own regions recycling program."> Waxed Cardboard
+            </label>
+        </p>
+    </section>
+    <div class="pSteel">
+        <div class="ptext">
+            <span class="border">
+                Steel
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Steel</h2>
+        <p>
+            <label for="Food Can">
+                <input type="checkbox" id="Steel" name="Recycle" value="Take it to your local recycling center and sell it to buy back centers. If you cant do either just put it in your bin."> Food Can
+            </label>
+            <label for="Aerosol Cans">
+            <input type="checkbox" id="Steel" name="Recycle" value="Take it to your local recycling center and sell it to buy back centers. If you cant do either just put it in your bin."> Aerosol Can
+            </label>
+            <label for="Structural Steel">
+                <input type="checkbox" id="Steel" name="Recycle" value="Sell it too a scrapping yard or some other company that scraps steel."> Steel parts of and kind
+           </fieldset>
+        </p>
+    </section>
+    <div class="pAUTOMOTIVE">
+        <div class="ptext">
+            <span class="border">
+                AUTOMOTIVE
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>AUTOMOTIVE</h2>
+        <p>
+            <label for="Seats">
+                <input type="checkbox" id="Automotive" name="Recycle" value="Ask if your local recycling center takes used car seats. If not then dismantle your seat and put it in your curbside or alley bin">Car seats
+            </label>
+            <label for="Parts">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local drop-off center">Parts
+            </label>
+            <label for="Engine">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local drop-off center">Engine
+            </label>
+            <label for="Anti Freeze">
+                <input type="checkbox" id="Automotive" name="Recycle" value="Ask if your local recycling center takes used car seats. If not then dismantle your seat and put it in your curbside or alley bin">Anti freeze
+            </label>
+            <label for="Batteries">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local drop-off center">Normal Battery
+            </label>
+            <label for="Batteries">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local boydshop">lead acid battery
+            </label>
+            <label for="Brake Fluid">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local drop-off center">Brake Fluid
+            </label>
+            <label for="Gasoline">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local drop-off center">Gasoline
+            </label>
+            <label for="Motor Oil">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local boydshop">Motor Oil
+            </label>
+            <label for="Tires">
+                <input type="checkbox" id="Automotive" name="Recycle" value="You can drop it off at your local drop-off center">Tires
+            </label>
+        </p>
+    </section>
+
+    <div class="pFOOD">
+        <div class="ptext">
+            <span class="border">
+                FOOD
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Food</h2>
+        <p>
+            <label for="composting">
+                <a href="https://www.cleanairgardening.com/things-you-can-compost/">Visit cleanairgardening.com</a> IF YOU WANT TO COMPOST READ THIS
+           </label>
+        </p>
+    </section>
+
+    <div class="pPLASTIC">
+        <div class="ptext">
+            <span class="border">
+                PLASTICS
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>PLASTICS</h2>
+        <p>
+            <label for="Gallon Jug">
+                <input type="checkbox" id="Plastic" name="Recycle" value="You can throw it out in your own bucket">Gallon Jug
+            </label>
+            <label for="Plastic Bags">
+                <input type="checkbox" id="Plastic Bags" name="Recycle" value="if it has a #2 or #4 on the bag then go somewhere to recycle. The national grocery retailers (such as Kroger, Safeway, Target and Walmart) offer bag recycling collections in their stores."> Plastic Bags
+            </label>
+            <label for="Cans">
+                <input type="checkbox" id="PLastic" name="Recycle" value="Look for curbside, school, work, or public space recycling bins, or find local recycling drop-off centers." > Tubs and Lids
+            </label>
+            <label for="Cans">
+                <input type="checkbox" id="Plastic" name="Recycle" value="Look for curbside, school, work, or public space recycling bins, or find local recycling drop-off centers." > Cups(like a yogurt cup)
+            </label>
+            <label for="Jug">
+                <input type="checkbox" id="Plastic" name="Recycle" value="You can throw it out in your own bucket" > Fruit Cup
+            </label>
+            <label for="Retail bags">
+                <input type="checkbox" id="Retail Bag" name="Recycle" value="there are receptacles in or outside many grocery stores/retail stores"> Retail Bags
+            </label>
+             <label for="Dry Cleaning bags">
+                <input type="checkbox" id="Dry Cleaning Bag" name="Recycle" value="there are receptacles in or outside many grocery stores/retail stores"> Dry Cleaning Bags
+            </label>
+             <label for="Bread bags">
+                <input type="checkbox" id="Bread Bag" name="Recycle" value="there are receptacles in or outside many grocery stores/retail stores"> Bread Bags
+            </label>
+             <label for="Shipping Pillows">
+                <input type="checkbox" id="Shipping Pillows" name="Recycle" value="these can actually be dropped at grocery/retail stores where the bags go"> Shipping Pillows
+            </label>
+            <label for="Bubble Wrap">
+                <input type="checkbox" id="Shipping Pillows" name="Recycle" value="these can actually be dropped at grocery/retail stores where the bags go"> Bubble Wrap
+            </label>
+             <label for="Ziploc">
+                <input type="checkbox" id="Ziploc Bag" name="Recycle" value="there are receptacles in or outside many grocery stores/retail stores"> Ziploc Bags
+            </label>
+             <label for="Plastic Paper Towel">
+                <input type="checkbox" id="Plastic Wrap" name="Recycle" value="there are receptacles in or outside many grocery stores/retail stores"> Plastic Around Paper Towels
+            </label>
+             <label for="Case of Soda">
+                <input type="checkbox" id="Soda Case" name="Recycle" value="look for bins in public spaces or in recycling drop-off centers"> Cases of Soda
+            </label>
+             <label for="Cling Wrap">
+                <input type="checkbox" id="Plastic Wrap" name="Recycle" value="there are receptacles in or outside many grocery stores"> Cling Wrap
+            </label>
+             <label for="Bio Bag">
+                <input type="checkbox" id="Bio Bag" name="Recycle" value="these can be recycled but only specific types. BioPET and BioPE can both be recycled as normal but any others need to get put into separate places. Sadly these places aren't widely available so reuse it then trash it." > Biodegradeable Bags
+            </label>
+             <label for="Container for Bev">
+                <input type="checkbox" id="Bev" name="Recycle" value="there are receptacles in or outside many grocery stores"> Container for Beverages
+            </label>
+             <label for="Food Containers">
+                <input type="checkbox" id="Retail Bag" name="Recycle" value="there are receptacles in or outside many grocery stores"> Food Containers
+            </label>
+             <label for="401 stuff">
+                <input type="checkbox" id="401 stuff" name="Recycle" value="look for bins in public spaces or in recycling drop-off centers"> Household Cleaner(401)
+            </label>
+             <label for="Shampoo">
+                <input type="checkbox" id="Shampoo" name="Recycle" value="look for bins in public spaces or in recycling drop-off centers"> Shampoo Bottle
+            </label>
+             <label for="Body Wash">
+                <input type="checkbox" id="Body Wash" name="Recycle" value="look for bins in public spaces or in recycling drop-off centers"> Body Wash
+            </label>
+             <label for="Caps">
+                <input type="checkbox" id="Plastic Caps" name="Recycle" value="look for bins in public spaces or in recycling drop-off centers"> Caps
+            </label>
+             <label for="Tooth Paste">
+                <input type="checkbox" id="Tooth Paste" name="Recycle" value="you can recycle this by cleaning them and mail them to a center through Colgate and TerraCycle. You provide the box but they provide the label"> Tooth Paste
+            </label>
+             <label for="Tooth Brush">
+                <input type="checkbox" id="Tooth Brush" name="Recycle" value="you can recycle this by cleaning them and mail them to a center through Colgate and TerraCycle. You provide the box but they provide the label"> Tooth Brush
+            </label>
+             <label for="Floss">
+                <input type="checkbox" id="Floss" name="Recycle" value="you can recycle this by cleaning them and mail them to a center through Colgate and TerraCycle. You provide the box but they provide the label"> Floss
+            </label>
+        </p>
+    </section>
+    <div class="pYARD">
+        <div class="ptext">
+            <span class="border">
+                YARD DEBRIS
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Yard Debris</h2>
+        <p>
+            <label for="Branches">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Branches
+            </label>
+             <label for="Hay">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Hay
+            </label>
+             <label for="Brush">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Brush
+            </label>
+             <label for="Holiday Greens">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Holiday Greens
+            </label>
+             <label for="Stumps">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Stump
+            </label>
+             <label for="Christmas Tree">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program. OR COMPOST."> Christmas Trees
+            </label>
+             <label for="Leaves">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program. OR COMPOST."> Leaves
+            </label>
+             <label for="Weeds">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program. OR COMPOST."> Weeds
+            </label>
+             <label for="Dirt">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program. OR COMPOST."> Dirt
+            </label>
+             <label for="Manure">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program. OR COMPOST."> Manure
+            </label>
+             <label for="Wood">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up https://reusewood.org/."> wood
+            </label>
+             <label for="Grass Clippings">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program. OR COMPOST."> Grass Clippings
+            </label>
+             <label for="Non O Food">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Non-Organic Food Waste
+            </label>
+             <label for="Branches">
+                <input type="checkbox" id="Yard" name="Recycle" value="Look up yard waste collection then your city. Most cities will have a collection program."> Wood Chips
+            </label>
+        </p>
+    </section>
+</body>
+<script src="script.js">
+</script>
+</html>
